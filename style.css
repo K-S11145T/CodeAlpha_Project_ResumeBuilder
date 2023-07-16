@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font2);
+    height: 94px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.navleft {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.navleft span {
+    font-size: 25px;
+    padding-bottom: 9px;
+}
+
+.navleft span a{
+    text-decoration: none;
+    color: black;
+}
+.navleft ul li {
+    list-style: none;
+    align-items: center;
+}
+
+.navleft ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.navleft ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 14px;
+    font-family: var(--font1);
+}
+
+.navleft ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+
+.content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    /* background-color: rgb(252, 241, 222); */
+    background-image: url("../img/home.jpg");
+}
+
+.content ::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: inherit;
+    opacity: 0.4;
+
+
+}
+
+.content-left {
+    font-family: var(--font1);
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin: 5px 15px;
+}
+
+.content-right img {
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 200px;
+    width: 300px;
+}
+
+.content-right {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-articles {
+    margin-top: 24px;
+    background-color: rgb(255, 250, 201);
+    padding: 24px;
+    position: relative;
+
+}
+
+.yearbox {
+    position: absolute;
+    width: 145px;
+    height: 155px;
+    /* background-color: red; */
+    right: 10px;
+    top: 100px;
+    
+}
+.yearbox div{
+    margin: 12px 0;
+font-size: 20px;
+}
+
+.home-article {
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+}
+
+.home-article-img {
+    width: 250px;
+    margin-inline: -35px;
+}
+
+.home-article-img img {
+    width: 200px;
+    margin-top: -10px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+    margin-inline: 0;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    height: 50px;
+
+    background-color: rgb(12, 2, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+
+}
+
+.footer a {
+    color: black;
+}
